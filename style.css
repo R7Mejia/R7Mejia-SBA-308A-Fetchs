@@ -1,0 +1,47 @@
+
+body{
+    color:rgb(99, 7, 99);
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNsN9zJUlJ3CucunRK0abZ0BjURlXna0mQ0Yh850IR1UCZFGLzwM1g53JUAFycwiCuCA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:  10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: crimson;
+    border-radius: 0.3rem;
+    margin: 0 2px;
+}
+a:hover{
+    background-color: 
+   rgb(20, 20, 220);
+}
+#searching-menu{
+    background-color: rgb(23, 252, 11);
+    color:rgb(86, 77, 76);
+}
+
+#results {
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+}
+
+.recipe {
+  margin-right: 20px; 
+}
+
+
+@media (max-width: 700px){
+    .contenido {
+        width: 350px;
+    }
+    .contenido h1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+}
